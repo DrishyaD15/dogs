@@ -9,17 +9,17 @@ body{
     top:0px;
      overflow:hidden;
 }
-ul{
+.topic ul{
     list-style-type: none;
     margin:0px;
     padding:0px;
     overflow:hidden;
     background-color: rgb(245, 119, 140);
 }
-ul li{
+.topic ul li{
     float:left;
 }
-ul li a{
+.topic ul li a{
     display:block;
     color:rgb(255, 255, 255);
     text-align:center;
@@ -27,7 +27,7 @@ ul li a{
     margin-bottom: 10px;
     text-decoration:none;
 }
-ul li a:hover{
+.topic ul li a:hover{
     background-color: rgb(247, 120, 247);
 }
 .flex-container{
